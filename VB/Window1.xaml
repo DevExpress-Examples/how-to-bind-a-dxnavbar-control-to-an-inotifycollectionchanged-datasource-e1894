@@ -1,0 +1,3 @@
+﻿<Window x:Class="NavBar_DataBinding.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar" xmlns:local="clr-namespace:NavBar_DataBinding" Title="Window1" Height="600" Width="600">
+	<dxn:NavBarControl local:NavBarDataBindingHelper.ItemsSource="{Binding}" />
+</Window>
